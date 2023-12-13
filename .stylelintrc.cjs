@@ -9,10 +9,6 @@ module.exports = {
     {
       files: ['**/*.(scss|css)'],
       customSyntax: 'postcss-scss'
-    },
-    {
-      files: ['**/*.(vue)'],
-      customSyntax: 'postcss-html'
     }
   ],
   ignoreFiles: [
