@@ -26,7 +26,8 @@
     "build:css": "node scripts/sassPack.js",
     "build:publish": "npm run build:css && npm publish",
     "prettier": "prettier --write \"./src/**/*.scss\"",
-    "stylelint": "stylelint --fix \"./src/**/*.scss\""
+    "stylelint": "stylelint --fix \"./src/**/*.scss\"",
+    "lint:css": "npm run prettier && npm run stylelint"
   },
   "devDependencies": {
     "sass": "^1.69.5",
